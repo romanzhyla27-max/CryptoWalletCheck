@@ -30,11 +30,11 @@ class WalletCheckerApp(ctk.CTk):
         main_frame.pack(fill="both", expand=True, padx=15, pady=15)
 
         # --- BLOCK 1: API Key Input ---
-        lbl_api = ctk.CTkLabel(main_frame, text="Enter Moralis API Key:", anchor="w")
+        lbl_api = ctk.CTkLabel(main_frame, text="Enter API Key:", anchor="w")
         lbl_api.pack(fill="x", pady=(0, 2))
 
         self.entry_api_key = ctk.CTkEntry(
-            main_frame, placeholder_text="Paste your Moralis Web3 API Key...", show="*"
+            main_frame, placeholder_text="Paste your Web3 API Key...", show="*"
         )
         self.entry_api_key.pack(fill="x", pady=(0, 10))
 
